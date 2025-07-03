@@ -55,6 +55,11 @@ The following checkpoints are required. Please download and place each file in t
   → Threshold used in Probabilistic Hough Transform to detect lines from the extracted edges.
 
 
+## Results
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/997fcb52-82d2-4d0d-97dc-8cfabec4c8ef" width="300" height="550"/>
+  <img src="https://github.com/user-attachments/assets/ba59af41-b9fe-4bae-bed6-d0aaf565afa5" width="300" height="550"/>
+</p>
 
 # Citation  
 The citation information will be available soon.

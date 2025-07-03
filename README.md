@@ -66,7 +66,8 @@ The citation information will be available soon.
 
 ## Contributors
 <p>
-  <strong>Ph.D. Candidate. Dongyoung Ko</strong>
+  <small>Ph.D. Candidate</small>
+  <strong>Dongyoung Ko</strong>
   <a href="https://sites.google.com/view/skkuscit" target="_blank">
     <img src="https://github.com/pms5343/Tension_aware_Wire_Tracker/raw/main/logo/skku.svg" height="20" alt="SKKU Logo"/>
   </a>
@@ -79,7 +80,8 @@ The citation information will be available soon.
 </p>
 
 <p>
-  <strong>Professor. Minsoo Park</strong>
+  <small>Professor</small>
+  <strong>Minsoo Park</strong>
   <a href="https://sites.google.com/view/iisc-lab" target="_blank">
     <img src="https://github.com/pms5343/Tension_aware_Wire_Tracker/raw/main/logo/GWNU.svg" height="20" alt="GWNU Logo"/>
   </a>
@@ -93,7 +95,8 @@ The citation information will be available soon.
 
 
 <p>
-  <strong>Professor. Seunghee Park</strong>
+  <small>Professor</small>
+  <strong>Seunghee Park</strong>
   <a href="https://sites.google.com/view/skkuscit" target="_blank">
     <img src="https://github.com/pms5343/Tension_aware_Wire_Tracker/raw/main/logo/skku.svg" height="20" alt="SKKU Logo"/>
   </a>

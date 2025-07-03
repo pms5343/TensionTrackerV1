@@ -15,7 +15,47 @@ All experiments were conducted under the following hardware and software configu
 * Python: 3.10.13
 * CUDA : 12.5
 
-  
+## Preparation
+
+* Clone or download the code package from this repository.
+* Set the working directory:
+```python
+MainFolder = "/your/custom/path"
+```
+
+## 📥 Download Pre-trained Models and Fine Tuning
+
+The following checkpoints are required. Please download and place each file in the specified directory.
+
+🔹 SAM2 (Segment Anything Model V2)
+* Checkpoint:   sam2.1_hiera_large.pt
+* Destination:  sam2_repo/checkpoints/
+* Download:     https://github.com/facebookresearch/sam2
+* Config Base: sam2.1_hiera_l.yaml
+- `multimask_output_in_sam = False`  
+  → Since only a single-object segmentation is required, multi-mask output is disabled.
+
+- `num_maskmem = 3`  
+  → Reduced from the default (7) to improve memory efficiency, as the strand shape does not change drastically over time.
+
+- `image_size = 1920`  
+  → Adjusted to match the input video resolution (1080×1920); the default was 1024.
+
+🔹 CoTracker
+* Checkpoint:   cotracker2.pth
+* Destination:  co-tracker/cotracker/checkpoints/
+* Download:     https://github.com/facebookresearch/co-tracker/tree/8d364031971f6b3efec945dd15c468a183e58212
+- `grid_size = 200`
+- `pad_value = 5`  
+
+🔹 Edge Detection
+- `LDC Threshold = 0.7`  
+  → All mask values below 0.7 are considered non-edge (i.e., discarded during boundary detection).
+- `HoughLineP Threshold = 100`  
+  → Threshold used in Probabilistic Hough Transform to detect lines from the extracted edges.
+
+
+
 # Citation  
 The citation information will be available soon.
 

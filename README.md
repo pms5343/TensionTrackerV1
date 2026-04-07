@@ -73,7 +73,7 @@ The following checkpoints are required. Please download and place each file in t
   year={2026},
   publisher={Elsevier}
 }
-
+```
 
 ## Contributors
 <p>

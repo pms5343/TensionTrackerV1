@@ -62,7 +62,18 @@ The following checkpoints are required. Please download and place each file in t
 </p>
 
 # Citation  
-The citation information will be available soon.
+* [(https://doi.org/10.1016/j.engappai.2025.113718)](https://doi.org/10.1016/j.engappai.2025.113718)
+```bibtex
+@article{ko2026computer,
+  title={Computer vision-based steel strand tension evaluation},
+  author={Ko, Dongyoung and Park, Minsoo and Na, Sangil and Jang, Juyoung and Cho, Yong Kwon and Park, Seunghee},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={166},
+  pages={113718},
+  year={2026},
+  publisher={Elsevier}
+}
+
 
 ## Contributors
 <p>
